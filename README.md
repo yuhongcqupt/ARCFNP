@@ -1,10 +1,30 @@
 # ARCFNP
-An Adaptive Rule-Correcting Fuzzy Neural Network for Partial Multi-Label Learning
 
-by Haoran Liu, Hong Yu, Feng Hu, Guoyin Wang.
+## Files
 
-Copyright (C) 2026 Hong Yu Chongqing University of Posts and Telecommunications.
+```text
+arcfnp/
+run_arcfnp.py
+requirements.txt
+```
 
-reference Haoran Liu, Hong Yu, Feng Hu, Guoyin Wang. An Adaptive Rule-Correcting Fuzzy Neural Network for Partial Multi-Label Learning.
+## Data
 
-This work has been submitted to Applied Intelligence. The code will be updated after the publication.
+```text
+Datasets/<dataset_name>/<dataset_name>.mat
+```
+
+Required keys:
+
+```text
+X
+Y
+Y_partial
+```
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python run_arcfnp.py
+```
